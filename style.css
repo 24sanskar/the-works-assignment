@@ -114,9 +114,6 @@ body {
   display: block;
 }
 
-left-nav i {
-  color: #fff;
-}
 .hero-section {
   background-image: url("images/heroSection.jpg");
   height: 50vh;
