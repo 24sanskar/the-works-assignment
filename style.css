@@ -326,6 +326,10 @@ button {
     font-size: 1rerm;
   }
   
+  .search-container input {
+  width: 50%;
+}
+  
   .card {
     height: auto;
   }
