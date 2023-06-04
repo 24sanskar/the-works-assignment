@@ -1,7 +1,7 @@
 function toggleMenu() {
         var menu = document.getElementById("navbarMenu");
         menu.classList.toggle("active");
-      }
+ }
 
 const searchContainer = document.querySelector(".search-container");
 const searchIcon = document.querySelector(".search-icon");
@@ -271,5 +271,4 @@ document
   .querySelector(".search-container input")
   .addEventListener("keyup", handleSearch);
 
-// Initial rendering of cards
 renderCards(data);
