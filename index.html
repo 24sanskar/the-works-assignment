@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Works</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c6536ee7f7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="logo-container">
+          <img src="images/logo.png" alt="Logo" class="logo" />
+        </div>
+        <div class="center-nav" id="navbarMenu">
+          <ul>
+            <li>SHOP</li>
+            <li>CONSULTATION</li>
+            <li>RESOURCES</li>
+            <li>MEMBERSHIP</li>
+            <li>ABOUT</li>
+          </ul>
+        </div>
+        <div class="left-nav">
+          <a href="#"><i class="fa-regular fa-user"></i> </a>
+          <a href="#">
+            <i class="fa-solid fa-bag-shopping"><sup>o</sup></i>
+          </a>
+          <div class="search-container">
+            <input
+              type="text"
+              placeholder="Search"
+              onkeyup="handleSearch(event)"
+            />
+            <button type="submit" class="search-icon">
+              <i class="fas fa-search" style="color: #fff"></i>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="main">
+      <div class="hero-section">
+        <h1>Glossary</h1>
+      </div>
+    </section>
+
+    <div class="optionSection">
+      <div class="options">
+        <label for="alphabets"><strong> ALPHABETICALLY</strong> </label>
+        <br />
+        <select
+          id="alphabets"
+          class="optionWidth"
+          onchange="handleOptionChange()"
+        >
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+          <option value="J">J</option>
+          <option value="K">K</option>
+          <option value="L">L</option>
+          <option value="M">M</option>
+          <option value="N">N</option>
+          <option value="O">O</option>
+          <option value="P">P</option>
+          <option value="Q">Q</option>
+          <option value="R">R</option>
+          <option value="S">S</option>
+          <option value="T">T</option>
+          <option value="U">U</option>
+          <option value="V">V</option>
+          <option value="W">W</option>
+          <option value="X">X</option>
+          <option value="Y">Y</option>
+          <option value="Z">Z</option>
+        </select>
+      </div>
+
+      <div class="options">
+        <label for="options"> <strong> SORT BY </strong> </label>
+        <br />
+        <select id="optionsused" class="optionWidth" onchange="sortItems()">
+          <option value="most-used">Most Used</option>
+          <option value="rare-used">Rare Used</option>
+        </select>
+      </div>
+    </div>
+
+    <hr class="hr" />
+
+    <div id="container" class="card-container"></div>
+
+    <section class="contactus">
+      <div>
+        <div class="contacttitle">
+          <h1 style="color: #5d4332">Stay Updated on all news on Hemp</h1>
+        </div>
+        <br />
+        <div class="contactsubtitle">
+          <h2 style="color: #5d4332">
+            Join our mailing list and get 10% off your next order
+          </h2>
+        </div>
+        <div class="contactemail">
+          <input type="email" placeholder="Enter your email" />
+          <button>SIGN UP</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="images/logo.png" alt="logo" class="logofooter" />
+      </div>
+      <div class="grid-item footer">
+        <h4>INFORMATION</h4>
+        <br />
+        <p>About Us</p>
+        <br />
+        <p>Shop All</p>
+        <br />
+        <p>FAQ</p>
+        <br />
+        <p>Returns and Exchange</p>
+        <br />
+        <p>Terms of Service</p>
+        <br />
+        <p>Refund</p>
+      </div>
+      <div class="grid-item footer">
+        <h4>SHOP NOW</h4>
+        <br />
+        <p>All Products</p>
+        <br />
+        <p>Hemp Nutrtion</p>
+        <br />
+        <p>CannaBliss</p>
+        <br />
+        <p>Skin Health</p>
+      </div>
+      <div class="grid-item footer">
+        <h4>CONTACT US</h4>
+        <br />
+        <p>
+          <span><i class="fa-solid fa-phone">&nbsp</i> +91 91081 54394</span>
+        </p>
+        <br />
+        <p>
+          <span
+            ><i class="fa-solid fa-envelope">&nbsp</i>
+            info@indiahemoorganics.com</span
+          >
+        </p>
+        <br />
+        <p>
+          <span
+            ><i class="fa-solid fa-location-dot">&nbsp</i> #41/2 Castle Street,
+            Ashok
+            <br />
+            Nagar, Bangalore - 560025</span
+          >
+        </p>
+        <br />
+        <div class="footericons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
