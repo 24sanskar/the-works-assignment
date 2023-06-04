@@ -50,7 +50,7 @@ body {
 }
 
 .nav-bar {
-  /* padding: 4px; */
+
   letter-spacing: 3px;
   display: flex;
   justify-content: space-evenly;
@@ -136,7 +136,6 @@ left-nav i {
 
 .optionSection {
   color: #5d4332;
-  /* font-weight: 500; */
   margin-top: 100px;
   display: flex;
   justify-content: space-evenly;
@@ -205,8 +204,6 @@ left-nav i {
   cursor: pointer;
   color: #5d4332;
   font-size: 20px;
-  /* text-decoration: underline; */
-  /* margin-top: 5px; */
 }
 
 .contactus {
@@ -215,7 +212,6 @@ left-nav i {
   height: 50vh;
   background-size: cover;
   background-position: center;
-  /* color: white; */
   text-align: center;
 
   display: flex;
