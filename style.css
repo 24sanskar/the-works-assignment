@@ -172,10 +172,10 @@ body {
   background-color: #f5f2ef;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 10px;
+  padding: 10px 10px 30px 10px;
   margin: 10px;
   width: 400px;
-  height: 250px;
+  height: auto;
   line-height: 30px;
 }
 
